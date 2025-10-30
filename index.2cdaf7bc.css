@@ -1,0 +1,34 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  height: 116px;
+}
+
+.star-not-active {
+  background-image: url("star.fa806e3c.svg");
+}
+
+.star-active {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.star {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  display: flex;
+}
+
+.star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars--set {
+  flex-direction: row;
+  display: flex;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
